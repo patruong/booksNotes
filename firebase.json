@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "booksNotes",
+      "public": "dist/booksNotes",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
